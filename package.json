@@ -1,0 +1,14 @@
+{
+  "name": "aws-meetup",
+  "version": "1.0.1",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Bianca Gauca",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

@@ -1,0 +1,22 @@
+{
+    "requiresCompatibilities": [
+        "EC2"
+    ],
+    "family": "ecs-task-demo",
+    "containerDefinitions": [
+        {
+            "image": "image_uri",
+            "name": "ecs-demo",
+            "cpu": 10,
+            "memory": 256,
+            "essential": true,
+            "portMappings": [
+                {
+                    "containerPort": 3000,
+                    "hostPort": 80,
+                    "protocol": "tcp"
+                }
+            ]
+        }
+    ]
+}
